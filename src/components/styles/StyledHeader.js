@@ -19,7 +19,7 @@ export const StyledHeader = styled.div`
   }
 `;
 
-export const StyledRMDBLogo = styled.img`
+export const StyledRMDBlogo = styled.img`
   width: 250px;
   margin-top: 20px;
 
@@ -29,7 +29,7 @@ export const StyledRMDBLogo = styled.img`
   }
 `;
 
-export const StyledTMDBLogo = styled.img`
+export const StyledTMDBlogo = styled.img`
   width: 122px;
   margin-top: 25px;
   float: right;
