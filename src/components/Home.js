@@ -57,14 +57,15 @@ const Home = () => {
 
     return (
         <>
+        { !searchTerm && (
             <HeroImage
                 image={`${IMAGE_BASE_URL}${BACKDROP_SIZE}${heroImage.backdrop_path}`}
                 title={heroImage.original_title}
                 text={heroImage.overview}
              />
-
+        )   }    
             <SearchBar callback={searchMovies} />
-            
+
             <Grid header={searchTerm ? 'Search Result':'Popular Movies'}>
                 {movies.map(movie => (
                     <MovieThumb
