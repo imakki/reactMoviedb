@@ -24,7 +24,7 @@ const Home = () => {
 
     const [
         { 
-            state : { movies, currentPage, totalPages, heroImage},
+            state : { movies, currentPage, heroImage},
             loading, 
             error, 
         }, 
