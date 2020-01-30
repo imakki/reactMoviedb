@@ -18,7 +18,7 @@ const HeroImage = ({image, title, text}) => (
 )
 
 HeroImage.propTypes = {
-    text : PropTypes.string,
+    image : PropTypes.string,
     title: PropTypes.string,
     text : PropTypes.string,
 
