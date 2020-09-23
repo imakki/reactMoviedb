@@ -1,4 +1,4 @@
 # reactMoviedb
 Movie database built using react
 
-Live at : muvidb.netlify.app
+Live at : https://muvidb.netlify.app/
